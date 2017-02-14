@@ -31,6 +31,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Program</StartupObject>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -42,11 +45,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlgorithmicCrush\Solution.cs" />
+    <Compile Include="AngryProfessor\Solution.cs" />
+    <Compile Include="CyrcularRotation\Solution.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SherlockPairs\Solution.cs" />
+    <Compile Include="SherlockPermutations\Solution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SparseArray\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AlgorithmicCrush\input07.txt" />
+    <Content Include="AlgorithmicCrush\output07.txt" />
+    <Content Include="AngryProfessor\input66.txt" />
+    <Content Include="AngryProfessor\output66.txt" />
+    <Content Include="SherlockPairs\input00.txt" />
+    <Content Include="SherlockPairs\input03.txt" />
+    <Content Include="SherlockPairs\output00.txt" />
+    <Content Include="SherlockPairs\output03.txt" />
+    <Content Include="SherlockPermutations\input00.txt" />
+    <Content Include="SherlockPermutations\output00.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
