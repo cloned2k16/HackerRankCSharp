@@ -98,12 +98,13 @@ class Program {
 
         if ( args . Length==0 ) {
 
-            doTest ( "AngryProfessor"       , new int [ ] { 66     } );
+            doTest ( "AngryProfessor"           , new int [ ] { 66      } );
+            doTest ( "CircularArrayRotation"    , new int [ ] { 66      } );
+            doTest ( "AlgorithmicCrush"         , new int [ ] {  7      } );
+            doTest ( "SherlockPermutations"     , new int [ ] {  0      } );
+            doTest ( "SherlockPairs"            , new int [ ] {  0,  3  } );
 
-            doTest ( "AlgorithmicCrush"     , new int [ ] {  7     } );
-            doTest ( "SherlockPermutations" , new int [ ] {  0     } );
-            doTest ( "SherlockPairs"        , new int [ ] {  0,  3 } );
-
+            
             Console . ReadKey ( );
 
         }

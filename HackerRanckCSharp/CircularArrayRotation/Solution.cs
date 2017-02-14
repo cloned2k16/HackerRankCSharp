@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CyrcularRotation {
+namespace CircularArrayRotation {
     class Solution {
         public
         static void Main ( String [ ] args ) {
